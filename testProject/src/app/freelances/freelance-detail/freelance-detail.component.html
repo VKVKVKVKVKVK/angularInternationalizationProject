@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Freelance's Details</h3>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="{{ freelance.imagePath }}" alt="{{ freelance.name }}" class="img-responsive" style="max-height: 300px;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>Name: {{ freelance.name }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            About me
+          </div>
+          <div class="panel-body">
+            {{ freelance.description }}
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            Average Daily Rate
+          </div>
+          <div class="panel-body">
+            {{ freelance.tjm }} €
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

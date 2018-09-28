@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h3 i18n="Freelances list title@@freelancesListTitle">Our freelances !</h3>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12">
+        <app-freelance-item *ngFor="let freelanceElmt of freelances" [freelance]="freelanceElmt" (freelanceSelected)="onFreelanceSelected(freelanceElmt)"></app-freelance-item>
+      </div>
+    </div>
+  </div>
+</div>

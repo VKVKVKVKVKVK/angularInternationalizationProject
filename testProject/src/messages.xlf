@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="navbarFreelances" datatype="html">
+        <source>Freelances</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">The freelances button in navbar</note>
+      </trans-unit>
+      <trans-unit id="navbarCompanies" datatype="html">
+        <source>Companies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">The companies button in navbar</note>
+      </trans-unit>
+      <trans-unit id="freelancesListTitle" datatype="html">
+        <source>Our freelances !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/freelances/freelances-list/freelances-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Freelances list title</note>
+      </trans-unit>
+      <trans-unit id="companyListTitle" datatype="html">
+        <source>Our companies !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/companies/companies-list/companies-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Companies list title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

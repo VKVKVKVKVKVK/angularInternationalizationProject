@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-freelances-list (freelanceWasSelected)="selectedFreelance =$event"></app-freelances-list>
+  </div>
+  <div class="col-md-5 col-md-offset-2">
+    <app-freelance-detail *ngIf="selectedFreelance" [freelance]="selectedFreelance"></app-freelance-detail>
+  </div>
+</div>
